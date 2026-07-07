@@ -1,5 +1,5 @@
 {
-  "name": "AlgerMusicPlayer",
+  "name": "MusicPlayer",
   "version": "5.1.0",
   "description": "Alger Music Player",
   "author": "Alger <algerkc@qq.com>",
@@ -123,12 +123,12 @@
   },
   "build": {
     "appId": "com.alger.music",
-    "productName": "AlgerMusicPlayer",
+    "productName": "MusicPlayer",
     "publish": [
       {
         "provider": "github",
         "owner": "algerkong",
-        "repo": "AlgerMusicPlayer"
+        "repo": "MusicPlayer"
       }
     ],
     "extraResources": [
@@ -161,7 +161,7 @@
       "identity": null,
       "type": "distribution",
       "binaries": [
-        "Contents/MacOS/AlgerMusicPlayer"
+        "Contents/MacOS/MusicPlayer"
       ]
     },
     "win": {
@@ -215,10 +215,10 @@
       "uninstallerIcon": "resources/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "AlgerMusicPlayer",
+      "shortcutName": "MusicPlayer",
       "include": "build/installer.nsh",
       "deleteAppDataOnUninstall": true,
-      "uninstallDisplayName": "AlgerMusicPlayer"
+      "uninstallDisplayName": "MusicPlayer"
     }
   },
   "pnpm": {
